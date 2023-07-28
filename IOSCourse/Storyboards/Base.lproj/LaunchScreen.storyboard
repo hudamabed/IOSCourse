@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gilroy-Bold.ttf">
+            <string>Gilroy-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="AYu-b8-GOP">
+            <objects>
+                <viewController id="BOg-PJ-WwM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uPC-rn-kov">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgsplash2" translatesAutoresizingMaskIntoConstraints="NO" id="j5k-dw-Vxe">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgTopShadow" translatesAutoresizingMaskIntoConstraints="NO" id="p7T-DA-wg9">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="p7T-DA-wg9" secondAttribute="height" multiplier="69:10" id="pqG-rT-xJQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgCenterShadow" translatesAutoresizingMaskIntoConstraints="NO" id="vPi-ej-0a3">
+                                <rect key="frame" x="22.5" y="263.5" width="369" height="369"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vPi-ej-0a3" secondAttribute="height" multiplier="1:1" id="zEr-go-OtQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icLogo2" translatesAutoresizingMaskIntoConstraints="NO" id="UQv-ma-u1e">
+                                <rect key="frame" x="88" y="347" width="238" height="202"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="UQv-ma-u1e" secondAttribute="height" multiplier="217:184" id="1rO-dS-QFf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rbZ-xr-o8X"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rbZ-xr-o8X" firstAttribute="trailing" secondItem="p7T-DA-wg9" secondAttribute="trailing" id="0Dy-we-UKe"/>
+                            <constraint firstItem="j5k-dw-Vxe" firstAttribute="top" secondItem="uPC-rn-kov" secondAttribute="top" id="0Ez-aS-Ylt"/>
+                            <constraint firstItem="UQv-ma-u1e" firstAttribute="width" secondItem="uPC-rn-kov" secondAttribute="width" multiplier="216/375" id="8Kv-y6-Wjb"/>
+                            <constraint firstItem="p7T-DA-wg9" firstAttribute="top" secondItem="uPC-rn-kov" secondAttribute="top" id="C88-TB-nP9"/>
+                            <constraint firstItem="p7T-DA-wg9" firstAttribute="leading" secondItem="rbZ-xr-o8X" secondAttribute="leading" id="Ewt-un-9vj"/>
+                            <constraint firstItem="vPi-ej-0a3" firstAttribute="centerY" secondItem="uPC-rn-kov" secondAttribute="centerY" id="FSL-x6-4xr"/>
+                            <constraint firstItem="vPi-ej-0a3" firstAttribute="centerX" secondItem="uPC-rn-kov" secondAttribute="centerX" id="Nwz-nq-2SL"/>
+                            <constraint firstItem="rbZ-xr-o8X" firstAttribute="trailing" secondItem="j5k-dw-Vxe" secondAttribute="trailing" id="aFz-3A-M6h"/>
+                            <constraint firstItem="UQv-ma-u1e" firstAttribute="centerX" secondItem="vPi-ej-0a3" secondAttribute="centerX" id="bPv-em-nIg"/>
+                            <constraint firstItem="j5k-dw-Vxe" firstAttribute="leading" secondItem="rbZ-xr-o8X" secondAttribute="leading" id="gXT-LX-hTK"/>
+                            <constraint firstItem="UQv-ma-u1e" firstAttribute="centerY" secondItem="vPi-ej-0a3" secondAttribute="centerY" id="ln1-eJ-7A8"/>
+                            <constraint firstAttribute="bottom" secondItem="j5k-dw-Vxe" secondAttribute="bottom" id="xEE-4O-rBH"/>
+                            <constraint firstItem="vPi-ej-0a3" firstAttribute="width" secondItem="uPC-rn-kov" secondAttribute="width" multiplier="334/375" id="zMg-ee-LW4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Egu-uK-Uos" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1013" y="414"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgTopSky" translatesAutoresizingMaskIntoConstraints="NO" id="RQb-xP-v3F">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="299"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="eZg-zP-EWL">
+                                <rect key="frame" x="121.5" y="323" width="171" height="250"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgDirbbox" translatesAutoresizingMaskIntoConstraints="NO" id="3Iv-Us-Uhp">
+                                        <rect key="frame" x="0.0" y="0.0" width="171" height="189"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dirbbox" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wn-RZ-yId">
+                                        <rect key="frame" x="16" y="212" width="139" height="38"/>
+                                        <fontDescription key="fontDescription" name="Gilroy-Bold" family="Gilroy-Bold" pointSize="38"/>
+                                        <color key="textColor" name="#22215B"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RQb-xP-v3F" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="aH7-cj-9d2"/>
+                            <constraint firstItem="RQb-xP-v3F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dov-DH-wbl"/>
+                            <constraint firstItem="eZg-zP-EWL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gmQ-5N-xvX"/>
+                            <constraint firstItem="RQb-xP-v3F" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="u8W-6t-env"/>
+                            <constraint firstItem="eZg-zP-EWL" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="vYb-08-TcY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="91" y="414"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bgCenterShadow" width="334" height="334"/>
+        <image name="bgDirbbox" width="171" height="189"/>
+        <image name="bgTopShadow" width="375" height="60"/>
+        <image name="bgTopSky" width="375" height="299"/>
+        <image name="bgsplash2" width="375" height="812"/>
+        <image name="icLogo2" width="217" height="184"/>
+        <namedColor name="#22215B">
+            <color red="0.13300000131130219" green="0.1289999932050705" blue="0.35699999332427979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
